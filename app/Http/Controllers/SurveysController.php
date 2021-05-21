@@ -29,11 +29,11 @@ class SurveysController extends Controller
     public function newSurvey()
     {
       $survey = new Survey();
-      $survey['question_1'] = $survey->questionOneContent();
-      $survey['question_2'] = $survey->questionTwoContent();
-      $survey['question_3'] = $survey->questionThreeContent();
-      $survey['question_4'] = $survey->questionFourContent();
-
+      for ($i=1; $i < 34; $i++) { 
+        $funcname = "question_".$i."_Content";
+        $survey['question_'.$i]=$survey->$funcname();
+      }
+      
       return $survey;
     }
 

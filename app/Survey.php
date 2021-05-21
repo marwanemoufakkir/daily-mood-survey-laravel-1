@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Survey extends Model
 {
   protected $fillable = [
-    'user_id','question_1_response', 'question_2_response', 'question_3_response', 'question_4_response', 'time_taken'
+    'user_id','question_1_response', 'question_2_response', 'question_3_response', 'question_4_response','question_5_response','time_taken'
   ];
 
 
@@ -16,26 +16,141 @@ class Survey extends Model
    *
    * @return string
    */
-  public function questionOneContent()
+  public function question_1_Content()
   {
-    return "How happy are you feeling today?";
+    return "Select the most suitable for your processes?";
   }
 
-  public function questionTwoContent()
+  public function question_2_Content()
   {
-    return "How well did you sleep last night?";
+    return "Select the most suitable for your processes?";
   }
 
-  public function questionThreeContent()
+  public function question_3_Content()
   {
-    return "How likely are you to see a friend today?";
+    return "Select the most suitable for your processes?";
   }
 
-  public function questionFourContent()
+  public function question_4_Content()
   {
-    return "How pleased are your with your diet today?";
+    return "Select the most suitable for your processes?";
   }
-
+  public function question_5_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_6_Content()
+  {
+    return "Select most suitable for handling data?";
+  }
+  public function question_7_Content()
+  {
+    return "Select most suitable for handling data?";
+  }
+  public function question_8_Content()
+  {
+    return "Select most suitable for handling data in terms of infrastructure?";
+  }
+  public function question_9_Content()
+  {
+    return "Select most suitable for handling data?";
+  }
+  public function question_10_Content()
+  {
+    return "Select most suitable for handling data?";
+  }
+  public function question_11_Content()
+  {
+    return "Please, select most relevant?";
+  }
+  public function question_12_Content()
+  {
+    return "Please, select most relevant?";
+  }
+  public function question_13_Content()
+  {
+    return "Please, select most relevant?";
+  }
+  public function question_14_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_15_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_16_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_17_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_18_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_19_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_20_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_21_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_22_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_23_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_24_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_25_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_26_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_27_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_28_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_29_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_30_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_31_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
+  public function question_32_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }  
+  public function question_33_Content()
+  {
+    return "Select most suitable for your organisation?";
+  }
   /**
    * Returns the user that the survey belongs to
    *
